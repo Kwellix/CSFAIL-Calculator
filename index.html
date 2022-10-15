@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name = "viewport" content = "width=device-width, initial-scale=1.0"/>
+        <title>Calculator</title>
+        <link rel = "stylesheet" href = "style.css"/>
+        <link href='https://fonts.googleapis.com/css?family=Montserrat' rel = "stylesheet" type="text/css"/>
+        <link rel="icon" type="image/x-icon" href="./favicon.ico">
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+    </head>
+    <body>
+        <main>
+            <div class="head_wrapper">
+                <header>
+                    <input type="text" name="bank" id="bank" placeholder="Введіть ваш баланс">
+                </header>
+            </div>
+            <div class="buttons">
+                <div class="btn1">
+                    <input type="radio" name="btnWay" id="btnWay" value="double" checked style="font-size:11px;"/><label style="font-size: 1.2rem">Двійки (🔴🔴)
+                </div>
+                <div class="btn2">
+                    <input type="radio" name="btnWay" id="btnWay" value="triple" style="font-size:11px;"/><label style="font-size: 1.2rem">Трійки (🔴🔴🔴)
+                </div>
+            </div>
+            <div class="content">
+                <div class="wrap1">
+                    <div class="profitCard">
+                        <b class="title">💸 Спосіб #1 (Профітний)</b>
+                        <br> 
+                        <br id="brHide1">
+                        <div class="profitClass2" style="display: flex" id="hide1">
+                            <p>Ставка на 2 🔴🔴:&nbsp</p> <b id="p2"></b> &nbsp <p id="profit1"></p> 
+                        </div>
+                        <br>
+                        <div class="profitClass3" style="display: flex">
+                            <p>Ставка на 3 🔴🔴🔴:&nbsp</p> <b id="p3"></b> &nbsp <p id="profit2"></p> 
+                        </div>
+                        <br>
+                        <div class="profitClass4" style="display: flex">
+                            <p>Ставка на 4 🔴🔴🔴🔴:&nbsp</p> <b id="p4"></b> &nbsp <p id="profit3"></p>  
+                        </div>
+                    </div>
+                </div>
+                <div class="wrap2">
+                    <div class="safeCard">
+                        <b class="title">⚖️ Спосіб #2 (Безпечний)</b>
+                        <br> 
+                        <br id="brHide2">
+                        <div class="safeClass2" style="display: flex" id="hide2">
+                            <div></div>    
+                            <p>Ставка на 2 🔴🔴:&nbsp</p> <b id="s2"></b> &nbsp <p id="profit4"></p> <br> 
+                        </div>
+                        <br>
+                        <div class="safeClass3" style="display: flex" id="hide2">
+                            <p>Ставка на 3 🔴🔴🔴:&nbsp</p> <b id="s3"></b> &nbsp <p id="profit5"></p>
+                        </div>
+                        <br>
+                        <p>Ставка на 4 🔴🔴🔴🔴: <b id="s4"></b></p> 
+                    </div>
+                </div>
+            </div>
+        </main>
+        <script src = "script.js"></script>
+    </body>
+</html>
