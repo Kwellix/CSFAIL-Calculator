@@ -13,10 +13,24 @@ let hide1 = document.getElementById("hide1");
 let hide2 = document.getElementById("hide2");
 let brHide1 = document.getElementById("brHide1")
 const radioButtons = document.querySelectorAll('input[name="btnWay"]');
-
+let radioButton1 = document.getElementById("btnWay");
+let radioButton2 = document.getElementById("btnWay2");
+    
 //---------------------------EVENT LISTENER---------------------------
 
 bankForm.addEventListener("input", () => {
+    Action()
+})
+
+radioButton1.onclick = function () {
+    Action()
+}
+
+radioButton2.onclick = function () {
+    Action()
+}
+
+function Action(){
     let bank = bankForm.value
     const data = new Calculator(+bank)
     
@@ -60,6 +74,7 @@ bankForm.addEventListener("input", () => {
         }
     }
 })
+}
 
 //---------------------------CLASS SECTION---------------------------
 
