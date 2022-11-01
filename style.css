@@ -6,7 +6,8 @@
 }
 
 body {
-    background-color: #323753;
+    /*background-color: #323753;*/
+    background-color: #533232;
 }
 
 main {
@@ -34,7 +35,8 @@ header {
     padding: 20px 20px 20px 20px;    
     display: grid;
     place-items: center;
-    background-color: #272b41;
+    /*background-color: #272b41;*/
+    background-color: #412727;
 }
 
 .btn1 {
@@ -89,7 +91,8 @@ input[type = text] {
 .profitCard {
     padding: 20px 20px 20px 20px;
     border-radius: 10px;
-    background-color: #c1fdc9;
+    /*background-color: #c1fdc9;*/
+    background-color: #ccd5fd;
     box-shadow: 0 30px 50px rgba(30, 21, 49, 0.1);
     width: 100%;
 }
@@ -97,7 +100,8 @@ input[type = text] {
 .safeCard {
     padding: 20px 20px 20px 20px;
     border-radius: 10px;
-    background-color: #ccd5fd;
+    /*background-color: #ccd5fd;*/
+    background-color: #c1fdc9;
     box-shadow: 0 30px 50px rgba(30, 21, 49, 0.1);
     width: 100%;
 }
